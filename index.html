@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>2D Breakout Game</title>
+    <style>
+      * { padding: 0; margin: 0; }
+      canvas { background: #eee; display: block; margin: 0 auto;}
+    </style>
+  </head>
+  <body>
+
+    <canvas id="myCanvas" width="480" height="320"></canvas>
+
+    <script>
+    // storing a reference to the canvas element to a canvas variable.
+      var canvas = document.getElementById("myCanvas");
+      // creating ctx variable to store 2D rendering context- use this to paint on the canvas.
+      var ctx = canvas.getContext("2d");
+    </script>
+  </body>
+</html>
